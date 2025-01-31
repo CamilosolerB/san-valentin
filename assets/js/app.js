@@ -3,8 +3,8 @@ const btnNo = document.querySelector('.botones__btn-no');
 const randomPic = document.querySelector('.random-pics__cats');
 const question = document.querySelector('.question');
 
-const musica = new Audio('assets/musica/chachacha.mp3');
-const accept = new Audio('assets/musica/canicall.mp3')
+const musica = new Audio('./assets/musica/chachacha.mp3');
+const accept = new Audio('./assets/musica/canicall.mp3')
 musica.play();
 // Si acepta: 
 btnSi.addEventListener('click', ()=>{
